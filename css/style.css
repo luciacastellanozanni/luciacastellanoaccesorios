@@ -1,0 +1,430 @@
+*{
+    margin:0px;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:600px){
+
+}
+
+@media only screen and (min-width:768px){
+    body{
+    }
+}
+
+@media only screen and (min-width:1200px){
+    body{
+    }
+}
+
+header{
+    text-align: center;  
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: white;
+    cursor:pointer;
+    position:sticky;
+    top:0;
+    padding: 0px 10px;
+    z-index:5;
+}
+
+.logo img{
+    width: 45%;
+    background-color: ;
+    display:block;
+    margin:10px;
+}
+
+.menu{
+    background-color:;
+    
+}
+
+.nav-links{
+    
+}
+
+.nav-links li{
+    /* Coloca los elementos dispuesto en bloques en linea */
+   list-style: none;
+   display: inline-block;
+   padding: 50px 10px;
+   background-color: ;
+}
+
+
+.nav-links li a{
+    color:black;
+    text-decoration: none;
+    font-weight:bold;
+    background-color: ;
+}
+
+.nav-links li a:hover{
+    color: #FFE4E0;
+    
+}
+
+
+.fa-heart{
+    padding-right: 10px;
+}
+
+.fa-shopping-cart{
+    padding-right: 10px;
+}
+
+.container{
+    position:relative;
+    display:block;
+}
+
+#carrusel{
+    width:100%;
+}
+
+.carrusel-img{
+    
+    
+}
+
+.carrusel-img img{
+    width:90%;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+    transition-delay: 1s;
+    transform:scale(1.1);
+}
+
+section{
+    overflow:visible;
+    justify-content: center;
+    text-align: center;
+    cursor:pointer;
+}
+
+section::-webkit-scrollbar{
+    display:none;
+}
+
+#info{
+    
+    display: inline-flex;
+    margin:auto;
+    align-items:center;
+    width: 100%;
+    height:250px;
+    justify-content: space-around;
+}
+
+#info col{
+    display: block;
+    position:relative;
+    text-align:center;
+    width:33.33%;
+}
+
+.info-title{
+    font-style: normal;
+    padding-top:10px;
+}
+
+.info-desc{
+    font-weight: normal;
+}
+
+#section3{
+    flex-direction: row;
+    display: inline-flex;
+    position: relative;
+
+}
+
+#section-div{
+    width:80%;
+    position:relative;
+}
+
+.section-img{
+    
+}
+
+.section-img img{
+    width:100%;
+    padding:10px;
+}
+
+#section-div p:hover{
+    color:#F0B8BB;
+}
+
+#ifr-facebook{
+    width:20%;
+    
+}
+
+.productos{
+    padding:30px;
+    flex-direction:row;
+    flex-wrap:wrap;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50% 50%;
+    gap:10px;
+    text-align:center;
+    justify-content:space-evenly;
+    height:auto;
+}
+
+.productos div{
+    grid-template-rows:minmax(250px, auto);
+   
+}
+
+.productos div:hover{
+    color:#F0B8BB;
+}
+
+.prod-child{
+    font-size: 20px;
+    font-family: Vijaya;
+    font-weight:bold;
+}
+
+.prod-child img{
+    width:80%;
+    border:10px solid white;
+    margin-top:30px;
+}
+
+.imagenproducto{
+    width:80%;
+    position: relative;
+    top: 10px;
+}
+
+
+.descripcionprod{
+    font-family: "Californian FB";
+    font-weight: bold;
+    text-align: center;
+}
+
+#buzoncontacto{
+    flex-direction: row;
+    display:inline-flex;
+    width:100%;
+    padding:100px;
+    flex-wrap: wrap;
+}
+
+#buzonmensaje{
+    background-color: ;
+    padding:0px;
+    text-align: center;
+    width:100%;
+    margin-top:-50px;
+    font-family: "The Secret";
+    font-size:50px;
+}
+
+#buzon{
+    width:30%;
+    padding:50px;
+    padding-left:10px;
+    
+}
+
+#contacto{
+    width:40%;
+    margin:0px;
+}
+
+.input{
+    border: 2px solid #F0B8BB;
+    border-radius:15px;
+    width:100%;
+    font-family: "Arial";
+    font-size: 14px;
+    margin:10px 20px;
+}
+
+.input:focus{
+    outline:none;
+}
+
+#contacto div input{
+    height:30px;
+    text-align:center;
+}
+
+#contacto div textarea{
+    padding:5px;
+}
+
+.btn{
+    padding: 5px 10px;
+    border-radius:5px;
+    cursor:pointer;
+    color: ;
+    width: 80px;
+    
+}
+
+#about-us{
+    font-size: 5rem;
+    font-family: "The Secret";
+    padding-top: 50px;
+    height: 700px;
+}
+
+.about-text{
+    float:left;
+    margin-left:150px;
+    margin-top:100px;
+}
+
+#hola{
+    margin-top:-100px;
+}
+
+.yo{
+    width:30%;
+    float:right;
+    position:relative;
+    margin-right: 200px;
+    border: 30px solid #FFF3F3;
+}
+
+#preguntas{
+    
+}
+
+#id-aside{
+    width:40%;
+}
+
+aside{
+    height:auto;
+    float:right;
+    overflow:auto;
+    position:relative;
+    text-align: center;
+    display: inline-block;
+}
+
+#main-footer{
+    width:100%;
+    height: 450px;
+    background-color: black;
+    color: white;
+    padding:40px;
+    position:relative;
+    flex-wrap:wrap;
+    
+}
+
+#p-mediospago{
+    margin-top:20px;
+    font-size:14px;
+    font-family: "Arial Black";
+    position:relative;
+}
+
+.cajafooter{
+    flex-direction:row;
+    display:grid;
+    grid-template-columns: 30% 40% 30%;
+    justify-content: space-around;
+    position:relative;
+    
+}
+
+.mediospago{
+    text-align: center;
+    position:relative;
+}
+
+.mediospago img{
+    height:200px;
+    margin:10px;
+        
+}
+
+.redesytexto{
+    flex-direction: column;
+    display:grid;
+    font-family: "Arial Black";
+    font-size:14px;
+    text-align: center;
+    margin-top:20px;
+    position:relative;
+}
+
+
+
+.redes{
+    justify-content: space-between;
+    justify-self: center;
+    height:40px;   
+    margin-top:20px;
+    
+}
+
+.redes a{
+    padding: 0px 5px;
+    margin-top:0px;
+}
+
+
+.text-footer{
+    text-align: center;
+    font-family: "californian FB";
+    font-size: 15px;
+    
+}
+
+.text-footer img{
+    margin-top:35px;
+    margin-bottom: 20px;;
+}
+
+.faq{
+    position:relative;
+}
+
+.faq p{
+    font-family: "Arial Black";
+    font-size:14px;
+    margin-top:20px;
+    margin-left: 80px;
+}
+
+.faq a{
+    text-decoration-color: none;
+    text-decoration:none;
+    color:white;
+}
+
+.faq a:hover{
+    color:#F0B8BB;
+}
+
+#links{
+    padding-top:20px;
+    padding-left:80px;
+    text-align:left;
+    font-size: 14px;
+}
+
+
+.linksutiles{
+    padding:5px 0px;
+}

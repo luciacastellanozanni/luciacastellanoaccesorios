@@ -1,0 +1,23 @@
+
+TODOS LOS MEDIOS DE PAGO
+<i class="far fa-credit-card"></i>
+
+ENVIOS A TODO EL PAIS
+<i class="fas fa-truck"></i>
+
+COMPRA SEGURA
+<i class="fas fa-lock"></i>
+
+
+CARRITO 
+<i class="fas fa-shopping-cart"></i>
+AGREGAR AL CARRITO 
+<i class="fas fa-cart-plus"></i>
+
+AGREGAR A FAVORITOS
+<i class="far fa-heart"></i>
+FAVORITOS CORAZON 
+<i class="fas fa-heart"></i>
+
+MANO CON CORAZON
+<i class="fas fa-hand-holding-heart"></i>
